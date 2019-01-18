@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <section>
+        <div class="wrap">
+            <div class="desc">
+                <h1>Progress</h1>
+            </div>
+            <div class="progress">
+                <svg>
+                    <circle class="progress-bar__background" stroke="#f0efef" stroke-width="10" fill="transparent" r="100" cx="120" cy="120"></circle>
+                    <circle class="progress-bar" stroke="#ffeb3b" stroke-width="10" fill="transparent" r="100" cx="120" cy="120"></circle>
+                </svg>
+            </div>
+
+            <div class="controls">
+                <div class="control">
+                    <input type="text" class="control__value" name="value" value="60">
+                    <p class="control__text">Value</p>
+                </div>
+                <div class="control">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="control__slider"></span>
+                    </label>
+                    <p class="control__text">Animate</p>
+                </div>
+                <div class="control">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="control__slider"></span>
+                    </label>
+                    <p class="control__text">Hide</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
